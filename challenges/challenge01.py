@@ -3,13 +3,14 @@
 def main():
    
     # input for user_name
-    name = input("Please enter your name!")
+    name = input("Please enter your name:")
 
     # input for the day
     week_day = input("What day of the week is today?")
 
     # A print statement that display the input back to the user.
-    print(f"Hello, {name}! Happy {week_day}!")
+    print("Hello, " + name + "! Happy " + week_day + "!")
+
 
 # this calls main
     main()
