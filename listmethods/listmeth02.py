@@ -17,5 +17,5 @@ print(proto)
 protoa.append(proto2) # pass proto2 as an argument to the append method
 print(protoa)
 
-protoa.remove("ssh")
+protoa.remove("ssh") # this removes "ssh" from the list
 print(protoa)
