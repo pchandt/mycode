@@ -1,0 +1,9 @@
+{% extends "home.html" %}
+
+{% block content %}
+<ul>
+    {% for name in names %}
+    <p>{{ name }}</p>
+    {% endfor %}
+</ul>
+{% endblock %}
